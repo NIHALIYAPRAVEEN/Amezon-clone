@@ -1,0 +1,128 @@
+.maiinn {
+    position: relative;
+    /* overflowX: hidden; */
+    /* top: -400px; */
+    /* margin: -5px; */
+    /* padding: 20px; */
+}
+
+.conttenerr {
+    /* padding: -29px; */
+    display: flex;
+    justify-content:  center;
+    margin-top: -85px;
+    margin-left: 3em;
+    display: flex;
+    /* margin: 5px; */
+    /* margin-right: 4rem; */
+    /* padding-bottom: 62px; */
+    padding-top: -5rem;
+}
+
+.ccard {
+    background-color:white;
+    height: 27rem;
+    margin: 65px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    max-width: 390px;
+    box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.3);
+}
+
+.ccccard{
+    height: 27rem;
+    margin: 65px;
+    max-width: 390px;
+}
+
+.ccard h2 {
+    /* margin: 0; */
+    padding: 29px;
+}
+
+.ccardd {
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* margin: 50px; */
+}
+
+.ccard1 img {
+    width: 350px;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+    /* object-fit: cover; */
+    cursor: pointer;
+}
+
+.ccard11 img {
+    width: 100%;
+    height:15vw;
+    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
+    /* object-fit: cover; */
+    cursor: pointer;
+}
+
+.card1 p {
+    margin: 5px;
+    font-size: 15px;
+}
+
+.card-btn {
+    font-size: 14px;
+    align-self: flex-start;
+    margin: 18px;
+    background-color: transparent;
+    border: none;
+    color: #007185;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    text-decoration: underline;
+    color: #C7511F;
+}
+
+.sigggn{
+    height: 8.4rem;
+    width: 23.5rem;
+    /* margin: 15px; */
+    margin-top: 16px;
+    /* margin-right: -20px; */
+    /* max-width: 390px; */
+    background-color: white;
+    box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.3);
+}
+
+.sigggn h2{
+    padding: 10px;
+    font-size: 25px;
+    margin-top: -5px;
+    margin: 19px;
+    margin-top: -1px;
+}
+
+.sigggnin{
+    margin-top: -10px;
+    margin-left: -80px;
+    text-align: center;
+}
+
+.sigggnin a{
+    padding: 10px;
+    font-size: 15px;
+    text-align:center;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #FFD814;;
+    color: black;
+}

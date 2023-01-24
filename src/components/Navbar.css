@@ -1,0 +1,288 @@
+.header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-logo {
+    width: 100px;
+    /* height: 90px; */
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    /* border: white; */
+    /* border: 1.5px solid transparent; */
+}
+
+/* .header-logo:hover{
+    border: 1.5px solid white;
+} */
+
+
+.icon-address{
+   padding-left: 8px;
+   height: 1rem;
+   color: white;
+}
+
+.header-search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.search-input {
+    height: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.fa {
+    padding: 12px;
+    height: 1rem;
+    /* height: 17px; */
+    background-color: rgb(241, 144, 74);
+    cursor: pointer;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-option {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.header-dropdown {
+    height: 42px;
+    width: 45px;
+    background-color:rgb(246, 248, 248);
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.header-dropdown:focus {
+    border: 2px solid chocolate;
+}
+
+.all {
+    text-align: center;
+}
+
+.header-img {
+    display: flex;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.india {
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.ind {
+    font-size: 13px;
+    margin-top: 16px;
+    font-weight: 600;
+}
+
+.cntry-dropdown{
+     height: 9px;
+     width: 17px;
+     margin-top: 21px;
+     padding:3px;
+     background-color: black;
+     color: white;
+     outline: none;
+     border: none;
+     border-radius: 50%;
+     cursor: pointer;
+}
+
+.contry{
+    color: black;
+    background-color: white;
+}
+
+.contryy {
+    color: blue;
+    background-color: white;
+    text-align: center;
+}
+
+.hello {
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.sign {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.signin-dropdown{
+    height: 9px; 
+    width: 10px;
+    margin-left :6.5rem;
+    margin-top: -12px;
+    right: -10px;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon-shopping{
+    padding-left: 8px;
+    margin-top: 13px;
+    margin-right: 10px;
+    height: 1rem;
+    color: white;
+}
+
+.icon-shopping i{
+    font-size: 1.8rem;
+    margin-top: -5px;
+}
+
+.shopping-cart {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.vlue{
+   font-size:10px;
+   position: relative;
+   top: -26px;
+   left:7px;
+}
+
+.cart {
+    margin-left: 4px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+
+
+
+
+/* ----------------NAVBAR-FOOTER----------------------------- */
+
+.header-footer{
+    position: sticky;
+    /* position: fixed; */
+}
+
+
+
+.nav-footer{
+    height: 50px;
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    background-color:rgb(33, 49, 65);    
+    position: sticky;
+    /* top: 0; */
+}
+ 
+.footer-textt{
+     color: white;
+     cursor: pointer;
+     margin-left: 7px;
+     display: flex;
+     align-items: center;
+}
+
+.footer-textt i{
+     padding: 2px;
+     margin: 4px;
+     position:relative;
+     font-size: 20px;
+}
+
+.footer-text{
+    margin: 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+     /* position: fixed; */
+}
+
+.footer-texts {
+    margin: 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    /* position: relative; */
+}
+
+.prime-dropdown{
+    height: 9px;
+    width: 10px;
+    margin-left: -4px;
+    margin-top: 9px;
+    background-color: rgb(33, 49, 65);
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* .app{
+    display: flex;
+    align-items: center;
+} */
+
+.download-app{
+    height: 20px;
+    width: 20px;
+    margin: 60px;
+    margin-right: -15px;
+    /* position: relative; */
+}
+
+.achor{
+    text-decoration: none;
+    color: white;
+    margin: 33px;
+    /* position: relative; */
+}
+
+@media screen and (max-width:1100px) {
+     .footer-texts{
+        display: none;
+    }
+
+    .footer-text{
+        margin: 0 10px;
+    }
+}
+
+

@@ -1,0 +1,96 @@
+ .maiiinn {
+     position: relative;
+     /* overflowX: hidden; */
+     /* top: -400px; */
+     /* margin: -5px; */
+     /* padding: 20px; */
+ }
+
+ .contttenerr {
+     /* padding: -29px; */
+     display: flex;
+     /* justify-content: center; */
+     margin-top: -55px;
+     margin-left: 1.6em;
+     margin-right: 1.6rem;
+     margin-bottom: 28px;
+     display: flex;
+     /* margin: 5px; */
+     /* margin-right: 4rem; */
+     /* padding-bottom: 62px; */
+     padding-top: -5rem;
+ }
+
+ .cccard {
+     background-color: white;
+     height: 27rem;
+     margin: 35px;
+     /* display: flex; */
+     /* flex-direction: column; */
+     /* justify-content: space-between; */
+     max-width: 380px;
+     box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.3);
+ }
+
+ 
+ .cccard h2 {
+     /* margin: 0; */
+     padding: 25px;
+ }
+
+ .cccardd {
+     align-items: center;
+     justify-content: center;
+     margin-top: -20px;
+     display: flex;
+     /* flex-wrap: wrap; */
+     /* justify-content: center; */
+     /* margin: 50px; */
+ }
+
+ .cccard1 img {
+     width: 350px;
+     height: 70%;
+     align-items: center;
+     justify-content: center;
+     /* object-fit: cover; */
+     cursor: pointer;
+ }
+ 
+.caardd {
+    margin-top: -19px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ 
+.card-btn {
+     font-size: 14px;
+     align-self: flex-start;
+     margin: 18px;
+     background-color: transparent;
+     border: none;
+     color: #007185;
+     cursor: pointer;
+ }
+
+
+ .card-btn:hover {
+     text-decoration: underline;
+     color: #C7511F;
+ }
+
+ .caard-btn{
+    font-size: 14px;
+     align-self: flex-start;
+     margin: 15px;
+     background-color: transparent;
+    border: none;
+    color: #007185;
+    cursor: pointer;
+ }
+
+ .caard-btn{
+    text-decoration: underline;
+    color: #C7511F;
+ }
